@@ -11,16 +11,16 @@
   --font-russo: "Russo One", sans-serif;
 }
 
-html, body, #root {
+#root {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 h1 { 
   font-family: "Rubik Glitch", system-ui;
 }
 
-a, h2 {
+a {
   font-family: "Russo One", sans-serif;
   text-transform: uppercase;
 }
@@ -30,8 +30,6 @@ a:hover {
 }
 
 .hero-with-bg {
-  width: 100%;
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
