@@ -3,16 +3,17 @@
 
 @theme {
   --color-ghost-white: #f7f7ff;
-  --color-amaranth-purple: #AB2346;
+  --color-popping-pink: #e9566fe6;
   --color-moss-green: #9A9B73;
   --color-hunyadi-yellow: #ECA72C;
   --color-raisin-black: #221E22;
+  
+  --font-russo: "Russo One", sans-serif;
 }
 
-body, #root {
+html, body, #root {
   height: 100vh;
   width: 100vw;
-  background-color: #AB2346;
 }
 
 h1 { 
@@ -26,4 +27,13 @@ a, h2 {
 
 a:hover {
   font-family: "Rubik Glitch", system-ui;
+}
+
+.hero-with-bg {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-6/367450177_823890629340664_3685571923467889333_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=i7-KYqzCFTgQ7kNvgH76-lV&_nc_oc=AdiXaz-j6qjy_b_pYuCxeu5sFxcxOquWuWUuYwduwhrC0yBRGRnJzGeJFcOBl2f6qdc&_nc_zt=23&_nc_ht=scontent-man2-1.xx&_nc_gid=2VhjdYCEv1ZQyOLkK-LaIg&oh=00_AYGvsRa1Q3eITQkk3xYZ1IrQGnSdBTOhd1GCtnzDxNQaZA&oe=67DDD627");
 }
