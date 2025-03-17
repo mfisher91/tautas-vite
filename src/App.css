@@ -1,1 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Russo+One&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-ghost-white: #f7f7ff;
+  --color-amaranth-purple: #AB2346;
+  --color-moss-green: #9A9B73;
+  --color-hunyadi-yellow: #ECA72C;
+  --color-raisin-black: #221E22;
+}
+
+body, #root {
+  height: 100vh;
+  width: 100vw;
+  background-color: #AB2346;
+}
+
+h1 { 
+  font-family: "Rubik Glitch", system-ui;
+}
+
+a, h2 {
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+}
+
+a:hover {
+  font-family: "Rubik Glitch", system-ui;
+}
